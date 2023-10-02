@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head></head>
-      <body>
+      <body className="flex flex-col items-center justify-center min-h-screen mb-10">
         {" "}
         <Providers>
           <div className="bg-primary">
